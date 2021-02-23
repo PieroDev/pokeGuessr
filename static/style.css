@@ -7,3 +7,22 @@
     bottom: 0;
     width: 100%;
 }
+
+.pokeImg{
+    width: 150px;
+    margin-left: 5px;
+}
+
+p{
+    margin-left: 25px;
+}
+
+.col{
+    padding: auto 0 auto;
+}
+
+.opciones{
+    border: rgb(0, 47, 148) 1px solid;
+    width: 50%;
+    text-align: center;
+}

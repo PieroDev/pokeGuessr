@@ -5,7 +5,19 @@
 
     <h1>PokeGuessr</h1>
     <div>
-        <img src="https://pokeres.bastionbot.org/images/pokemon/<%= pokeId %>.png" alt="">
+        <img class="pokeImg" src="https://pokeres.bastionbot.org/images/pokemon/<%= pokeId %>.png" alt="">
         <p class="nombre"> <%= pokeName %> </p>
     </div>
-<%- include("footer") -%>
+    <div class="container">
+        <form action="">
+            <div class="row row-cols-2  justify-content-center">
+                <div class="col"><p class="opciones op0">OPCION 1</p></div>
+                <div class="col"><p class="opciones op1">OPCION 2</p></div>
+                <div class="col"><p class="opciones op2">OPCION 3</p></div>
+                <div class="col"><p class="opciones op3">OPCION 4</p></div>
+            </div>
+        </form>
+        
+    </div>
+    
+<%- include("footer") -%> 
