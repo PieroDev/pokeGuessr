@@ -6,6 +6,5 @@ function alerta(){
     else{
         $(".hola").addClass("changeColor");
     }
-    
 }
 

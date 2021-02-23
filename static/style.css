@@ -1,3 +1,9 @@
 .changeColor{
     color: rgb(0, 90, 163);
 }
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
